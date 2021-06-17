@@ -1,31 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Mercado Liebre</title>
-    <link rel="shortcut icon" href="/public/images/logo-mercado-liebre.svg">
-    
 </head>
+<header>
 <body>
-    <img src="/images/logo-mercado-liebre.svg" alt="">
-    <i class="fas fa-search"></i> <input type="search" name="busqueda" placeholder="Que estas buscando?">
-<p>Compra packs en coutas y sin tarjeta de credito!</p>
+   <div class="logo"> <img src="/images/logo-mercado-liebre.svg" alt=""></div> 
+<div class="buscador">
+   <input type="search" placeholder="Que estas buscando?">
+</div>
+   <button class="botonbusqueda"> 
+    <i class="fas fa-search"></i>
+   </button>
+ 
+    
+   <p><i class="fas fa-hand-holding-usd"></i>Compra en coutas y sin tarjeta de credito!</p>
+   
+<br>
 <nav>
     <ul type= "circle">
-        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Ofertas</ a></li>
         <li><a href="#">Tiendas Oficiales</a></li>
         <li><a href="#">Vender</a></li>
         <li><a href="#">Ayuda</a></li>
         <br>
-        <li><a href="#">Creá tu cuenta!</a></li>
-        <li><a href="#">Ingresá</a></li>
-        <li><a href="#">Mis Compras</a></li>
+        <li><a href="#">Creá tu cuenta!</a><i class="far fa-address-card "></i></li>
+        <li><a href="#">Ingresá</a><i class="fas fa-sign-in-alt "></i>
+        </li>
+        <li><a href="#">Mis Compras</a><i class="fas fa-shopping-basket "></i>
+        </li>
     </ul>
+    <div class="burger-menu">
+        <i class="fas fa-bars"></i>
+        </div>
 </nav>
+</header>
 <main>
     <section>
        <h2>Basado en tu ultima visita</h2>
